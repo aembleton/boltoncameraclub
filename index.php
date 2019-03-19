@@ -1,7 +1,7 @@
 <? 
 $title = "Welcome to Bolton Camera Club";
 $page = "about-us";
-include('header.php'); ?>
+include('inc/header.php'); ?>
     <h1><? echo $title ?></h1>
     <p>Bolton Camera Club meets weekly throughout most of the year and gives a very warm welcome to visitors and new members. We have been sharing a passion for photography since 1884 and are more than happy to share with you, whether your interest is in film or digital, audio visual or more technical aspects of photography. </p>
     <h2>Where we meet</h2>
@@ -13,4 +13,4 @@ include('header.php'); ?>
     <p>Join the ring road and travel clockwise along Crompton Way. At the end of Crompton Way, turn left  onto Bury Road. At the next set of traffic lights turn right, onto Long Lane. St Osmund's Church Hall is then on the left hand side</p>
     <h3>Coming from Bury</h3>
     <p>Follow Bury Road until the shopping centre at Breightmet is on your right. At the next traffic lights turn left onto Long Lane. St Osmund's Church Hall is just on the left hand side</p>
-<? include('footer.php'); ?>
+<? include('inc/footer.php'); ?>

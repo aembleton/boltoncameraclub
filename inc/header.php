@@ -28,13 +28,13 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item <? echo $about_us_active ?>">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="/">About Us</a>
       </li>
       <li class="nav-item <? echo $syllabus_active ?>">
-        <a class="nav-link" href="#">Syllabus</a>
+        <a class="nav-link" href="/syllabus">Syllabus</a>
       </li>
       <li class="nav-item <? echo $competition_results_active ?>">
-        <a class="nav-link" href="#">Competition Results</a>
+        <a class="nav-link" href="/competition-results">Competition Results</a>
       </li>
     </ul>
   </div>
