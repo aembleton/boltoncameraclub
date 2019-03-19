@@ -11,6 +11,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41472909-1"></script>
         <script>
@@ -28,7 +29,7 @@
     </head>
     <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="/new">
     <img src="http://www.boltoncameraclub.co.uk/templates/shape5_vertex/images/s5_logo.png">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +38,13 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item <? echo $about_us_active ?>">
-        <a class="nav-link" href="/">About Us</a>
+        <a class="nav-link" href="/new">About Us</a>
       </li>
       <li class="nav-item <? echo $syllabus_active ?>">
-        <a class="nav-link" href="/syllabus">Syllabus</a>
+        <a class="nav-link" href="/new/syllabus">Syllabus</a>
       </li>
       <li class="nav-item <? echo $competition_results_active ?>">
-        <a class="nav-link" href="/competition-results">Competition Results</a>
+        <a class="nav-link" href="/new/competition-results">Competition Results</a>
       </li>
     </ul>
   </div>
